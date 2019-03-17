@@ -70,7 +70,7 @@ the pitch.
 {% include dc/intro.html %}
 {% elsif page.carpentry == "lc" %}
 {% include lc/intro.html %}
-{% elsif page.carpentry == "4oss" %}
+{% elsif page.carpentry == "cp" %}
 {% include 4oss/intro.html %}
 {% endif %}
 
@@ -86,7 +86,7 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif page.carpentry == "lc" %}
 {% include lc/who.html %}
-{% elsif page.carpentry == "4oss" %}
+{% elsif page.carpentry == "cp" %}
 {% include 4oss/who.html %}
 {% endif %}
 
@@ -214,7 +214,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% include dc/schedule.html %}
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
-{% elsif page.carpentry == "4oss" %}
+{% elsif page.carpentry == "cp" %}
 {% include 4oss/schedule.html %}
 {% endif %}
 
@@ -261,7 +261,7 @@ please preview your site before committing, and make sure to run
 {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
 {% include lc/syllabus.html %}
-{% elsif page.carpentry == "4oss" %}
+{% elsif page.carpentry == "cp" %}
 {% include 4oss/syllabus.html %}
 {% endif %}
 
@@ -289,7 +289,7 @@ please preview your site before committing, and make sure to run
   Data Carpentry
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
-  {% elsif page.carpentry == "4oss" %}
+  {% elsif page.carpentry == "cp" %}
   4OSS
   {% endif %}
   workshop,
