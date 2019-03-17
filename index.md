@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "4oss"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry: "cp"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "Clemenspoort Gent"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Overwale 3, 9000 Ghent"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
